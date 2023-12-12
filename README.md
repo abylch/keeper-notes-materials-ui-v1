@@ -9,12 +9,16 @@ React is a free and open-source front-end JavaScript library for building user i
 - **Frontend:**
   - **React**
   <img src="https://en.wikipedia.org/wiki/React_(software)#/media/File:React_Logo_SVG.svg" width="124px" height="124px">
+
   - **Material-UI for styling**
   <img src="https://mui.com/static/logo.png" width="124px" height="124px">
+
   - **JavaScript**
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="124px" height="124px">
+
   - **css**
   <img src="https://en.wikipedia.org/wiki/CSS#/media/File:CSS3_logo_and_wordmark.svg" width="124px" height="124px">
+  
   - **VSCODE**
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="60px" height="60px">
 
