@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Keeper Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Keeper Notes is a simple React frontend-only web application for managing notes. It allows to create, edit, and delete notes while providing a seamless and responsive user interface.
 
-## Available Scripts
+React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- **Frontend:**
+  - **React**
+  <img src="https://en.wikipedia.org/wiki/React_(software)#/media/File:React_Logo_SVG.svg" width="124px" height="124px">
+  - **Material-UI for styling**
+  <img src="https://mui.com/static/logo.png" width="124px" height="124px">
+  - **JavaScript**
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="124px" height="124px">
+  - **css**
+  <img src="https://en.wikipedia.org/wiki/CSS#/media/File:CSS3_logo_and_wordmark.svg" width="124px" height="124px">
+  - **VSCODE**
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="60px" height="60px">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
 
-### `npm test`
+- **Header:**
+  - Displays the application title, a Tips and Updates icon.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Footer:**
+  - Displays a simple footer for the web application.
 
-### `npm run build`
+- **Note:**
+  - Represents a single note with title, content, time note created, and a delete button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **CreateArea:**
+  - Allows users to create new notes by entering a title and content.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Login:**
+  - Provides a login form for users to authenticate themselves.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Register:**
+  - Offers a registration form for new users to create an account.
 
-### `npm run eject`
+- **App:**
+  - Main component handling routing and rendering of other components.
+  - Manages user authentication, notes retrieval, and user-related operations.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/abylch/keeper-notes-materials-ui-v1.git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend Side
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Navigate to the `keeper-notes-materials-ui-v1` directory.
 
-## Learn More
+    ```bash
+    cd keeper-notes-materials-ui-v1
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install frontend dependencies using npm.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm install
+    ```
 
-### Code Splitting
+3. Start the frontend development server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm start
+    ```
 
-### Analyzing the Bundle Size
+4. Open your browser and visit `http://localhost:3000` to use test the keeper notes web app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute, report issues, or provide feedback!
